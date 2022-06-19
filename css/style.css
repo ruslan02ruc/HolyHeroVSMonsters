@@ -1,14 +1,15 @@
 body{
+    font-family: Comic Sans MS, Comic Sans, cursive;
     margin: 0;
     padding: 0;
-    font-family: Comic Sans MS, Comic Sans, cursive;
     background: linear-gradient(90deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
-    transform: translate3d(0, 0, 0);
+    /* transform: translate3d(0, 0, 0); */
     overflow-x: hidden;
 }
- 
+
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -30,6 +31,10 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     color: white;
+}
+.button:hover{
+    background: white;
+    color: #333333;
 }
 
 .menu-main {
@@ -88,6 +93,7 @@ body{
 }
 
 .fullscreen-bg {
+    margin-top: 97px;
     overflow: hidden;
     z-index: -100;
     position: relative;
@@ -345,7 +351,7 @@ h3{
 
 .container2{
     margin: 0 auto;
-    //margin-left: 355px;
+    /* margin-left: 355px; */
 }
 
 .system_requirements_title{
@@ -366,8 +372,14 @@ h3{
 	background: #303030;
     color: white;
     text-align: center;  
+    padding-top: 15px;
 }
 .system_requirements .min_max_requirements:first-child {
 	margin-right: 0%;
 }
-
+.navbar{
+    width: 100%;
+    background-color: #262626;
+    position: fixed;
+    top: 0;
+}

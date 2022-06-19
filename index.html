@@ -6,16 +6,19 @@
     <title>HolyHeroVsMonsters</title>
     <link rel="shortcut icon" href="./img/Logo2.png">
 </head>
-<body>
-    <div style="display: flex;">
-        <ul class="menu-main">
-            <li><a href="#main">Главная</a></li>
-            <li><a href="#ob-igre">Об игре</a></li>   
-            <li><a href="#enemy">Противники</a></li>
-            <li><a href="#contacts">Контакты</a></li>
-        </ul>
-        <a href="https://drive.google.com/file/d/1nHyqzHyswMNnA39vuo9dGU-NE1Pvdk35/view" class="button">Скачать игру</a>  
-    </div>    
+
+<body>  
+    <div class="navbar">
+        <div style="display: flex;">
+            <ul class="menu-main">
+                <li><a href="#main">Главная</a></li>
+                <li><a href="#ob-igre">Об игре</a></li>   
+                <li><a href="#enemy">Противники</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1nHyqzHyswMNnA39vuo9dGU-NE1Pvdk35/view" class="button">Скачать игру</a>  
+        </div> 
+    </div>
     <p id="main"> </p>
     <div class="fullscreen-bg"> 
         <div class="overlay">
@@ -26,13 +29,13 @@
             чтобы выяснить, как долго вы сможете продержаться.<br> 
             Благодаря умной системе повышения уровня ваша сила и сила ваших врагов будет постоянно расти во время игры.</p>
         </div>
-            <video loop="" muted="" autoplay="" class="fullscreen-bg__video">
+        <video muted="muted" autoplay="autoplay"  loop src="video/gameplay.mp4" class="fullscreen-bg__video">
             <source src="video/gameplay.mp4" type="video/mp4">
             <source src="video/gameplay.mp4" type="video/mp4">
         </video>
     </div>
-    <div class="container1">
-        <p id="ob-igre"> </p>
+    <p id="ob-igre"> </p>
+    <div class="container1"> 
         <div class="features-container">   
             <div class="feature-item">
                 <div class="feature-content-color">
@@ -155,9 +158,10 @@
                 Место на диске: 3 GB.</p>
         </div>
     </div>
-</div>
     <footer>
         <p>©2022 Holy Hero VS Monsters</p>
-    </footer>
+    </footer>  
+    
 </body>
+
 </html>
