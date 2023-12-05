@@ -1,0 +1,41 @@
+.blog {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 4rem;
+
+	&__container {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding-bottom: 2rem;
+	}
+
+	&__data {
+		padding-bottom: 1.5rem;
+	}
+
+	&__img {
+		width: 70%;
+		height: auto;
+		border-radius: 15px;
+		padding-bottom: 2rem;
+	}
+
+	&__title {
+		padding-bottom: 1rem;
+		text-align: center;
+	}
+	
+	&__desc {
+		// padding-bottom: 30px;
+	}
+
+	&__loading{
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

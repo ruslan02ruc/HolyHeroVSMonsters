@@ -1,0 +1,49 @@
+.blog-item {
+	&__item {
+		display: flex;
+		gap: 1.5rem;
+		align-items: center;
+		padding-bottom: 1rem;
+	}
+	
+	&__col {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	
+	&__img {
+		width: 250px;
+		height: auto;
+		border-radius: 15px;
+	}
+	
+	&__data {
+		padding-bottom: .5rem;
+	}
+	
+	&__title {
+		padding-bottom: 1rem;
+	}
+	
+	&__shortDesc {
+		padding-bottom: 1rem;
+	}
+
+	&__desc {
+		padding-bottom: 1.5rem;
+	}
+	
+	&__link {
+		color: var(--color-text);
+
+		&:hover {
+			color: rgb(204, 157, 37);
+		}
+	}
+	
+	&__buttons {
+		display: flex;
+		gap: 2rem;
+	}
+}

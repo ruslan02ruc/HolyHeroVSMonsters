@@ -1,0 +1,26 @@
+.auth-google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+
+  &__title {
+
+  }
+
+  &__button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(120%);
+    }
+  }
+
+  & svg {
+    width: 20px;
+    height: auto;
+  }
+}

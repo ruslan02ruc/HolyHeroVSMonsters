@@ -1,0 +1,57 @@
+.comment {
+  padding-top: 1rem;
+
+  &__email {
+    padding-bottom: 0rem;
+  }
+
+  &__text {
+    padding-bottom: .3rem;
+  }
+  
+  &__button {
+    display: flex;
+    gap: 10px;
+
+    &>button {
+      border: none;
+      outline: none;
+      background: transparent;
+      cursor: pointer;
+      
+      &>svg {
+        width: 15px;
+        height: auto;
+        color: #fff;
+      }
+    }
+    
+
+    &--answer {
+      font-size: .8rem;
+      color: dimgrey;
+    }
+
+    &--like {
+      color: #fff;
+      display: flex;
+      gap: 5px;
+
+      &.green {
+        color: rgb(103, 158, 103);
+      }
+      &.red {
+        color: rgb(184, 61, 61);
+      }
+    }
+
+    &--dislike {
+      
+    }
+  }
+
+  &__under {
+    padding-top: 10px;
+    padding-left: 40px;
+  }
+}

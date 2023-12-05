@@ -1,0 +1,32 @@
+.contacts {
+	&__container {
+		background: var(--color-blog);
+		padding: 1.5rem 0;
+	}
+	
+	&-top {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: .5rem;
+		padding-bottom: 1rem;
+		
+		&__media img {
+			width: 50px;
+			height: 50px;
+		}
+	}
+	
+	&-bottom {
+		& h1 {
+			text-align: center;
+			padding-bottom: 1.5rem;
+		}
+	}
+	
+	&__req {
+		display: flex;
+		text-align: center;
+		justify-content: space-around;
+	}
+}
